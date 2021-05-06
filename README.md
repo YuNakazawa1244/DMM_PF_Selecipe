@@ -25,19 +25,19 @@ https://docs.google.com/spreadsheets/d/1y3hTl5kGVDGl5P7Tz9-aXcXU-L3DiGHdsJkNZKeC
 - IDE：Cloud9
 
 ## 使用素材
--写真素材
+- 写真素材
 ぱくたそ https://www.pakutaso.com/
 O-DAN https://o-dan.net/ja/
 morguefile https://morguefile.com/
--フォント素材
+- フォント素材
 Font Free https://fontfree.me/
--イラスト素材
+- イラスト素材
 イラストAC https://www.ac-illust.com/
--アイコン素材
+- アイコン素材
 ICOOON MONO https://icooon-mono.com/
--ファビコン作成
+- ファビコン作成
 半透過マルチアイコンfavicon.icoを作ろう! https://ao-system.net/alphaicon/
--ロゴ作成
+- ロゴ作成
 designevo https://www.designevo.com/
--ドメイン取得
+- ドメイン取得
 お名前.com https://www.onamae.com/
