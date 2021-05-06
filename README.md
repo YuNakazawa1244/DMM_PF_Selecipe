@@ -26,9 +26,9 @@ https://docs.google.com/spreadsheets/d/1y3hTl5kGVDGl5P7Tz9-aXcXU-L3DiGHdsJkNZKeC
 
 ## 使用素材
 - 写真素材
-ぱくたそ https://www.pakutaso.com/
-O-DAN https://o-dan.net/ja/
-morguefile https://morguefile.com/
+ぱくたそ https://www.pakutaso.com/<br>
+O-DAN https://o-dan.net/ja/<br>
+morguefile https://morguefile.com/<br>
 - フォント素材
 Font Free https://fontfree.me/
 - イラスト素材
