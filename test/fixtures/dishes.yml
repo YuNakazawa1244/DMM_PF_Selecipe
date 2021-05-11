@@ -1,0 +1,21 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  name: MyString
+  image: MyText
+  type: 
+  list: MyString
+  time: 1
+  source: MyText
+  memo: MyText
+  satisfaction: 1.5
+
+two:
+  name: MyString
+  image: MyText
+  type: 
+  list: MyString
+  time: 1
+  source: MyText
+  memo: MyText
+  satisfaction: 1.5
