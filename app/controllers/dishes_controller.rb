@@ -1,10 +1,10 @@
 class DishesController < ApplicationController
   def new
   end
-  
+
   def create
   end
-  
+
   def index
   end
 
@@ -16,8 +16,7 @@ class DishesController < ApplicationController
 
   def destroy
   end
-  
+
   def update
   end
-  
 end
