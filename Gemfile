@@ -70,11 +70,14 @@ gem 'bootstrap', '~> 4.5'
 gem 'jquery-rails'
 gem 'font-awesome-sass', '~> 5.13'
 gem 'acts-as-taggable-on'
+gem 'rename'
 
 ### 追加gem、デプロイに伴う環境変数化
 gem 'dotenv-rails'
-
+gem 'mysql2', group: :production
 ### 追加gem、デバッグ。開発時のみ
-gem 'pry-rails', group: :development
-gem 'pry-byebug', group: :development
-gem 'rubocop-airbnb', group: :development
+group :development do
+  gem 'pry-rails'
+  gem 'pry-byebug'
+  gem 'rubocop-airbnb'
+end
