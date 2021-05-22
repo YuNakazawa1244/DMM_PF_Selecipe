@@ -10,19 +10,56 @@
   </head>
 
   <body>
-    <% if user_signed_in? %>
-      <li>
-        <%= link_to "ログアウト", destroy_user_session_path, method: :delete %>
-      </li>
-    <% else %>
-      <li>
-        <%= link_to "新規登録", new_user_registration_path %>
-      </li>
-      <li>
-        <%= link_to "ログイン", new_user_session_path %>
-      </li>
-    <% end %>
+    <header>
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+          <a class="navbar-brand" href="/">
+            <span>Selecipe</span>
+          </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="true" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+          <div class="navbar-collapse collapse " id="navbarNavDropdown" style="">
+            <ul class="navbar-nav ml-auto">
+
+              <% if user_signed_in? %>
+                <li>
+                  <%= link_to "ホーム", user_path(current_user.id), class: 'fas fa-home nav-link text-light' %>
+                </li>
+                <li>
+                  <%= link_to "レシピ投稿", new_dish_path, class: 'fas fa-pencil-alt nav-link text-light' %>
+                </li>
+                <li>
+                  <%= link_to "レシピ一覧", dishes_path, class: 'fas fa-book-open nav-link text-light' %>
+                </li>
+
+                <li>
+                  <%= link_to "ログアウト", destroy_user_session_path, method: :delete , class: 'fas fa-sign-out-alt nav-link text-light' %>
+                </li>
+              <% else %>
+                <li>
+                  <%= link_to "新規登録", new_user_registration_path %>
+                </li>
+                <li>
+                  <%= link_to "ログイン", new_user_session_path %>
+                </li>
+              <% end %>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
 
     <%= yield %>
+
+    <footer>
+      <div class="container mt-5">
+        <div class="row">
+          <div class="mx-auto">
+            <p>© Selecipe 2021</p>
+          </div>
+        </div>
+      </div>
+    </footer>
   </body>
 </html>
