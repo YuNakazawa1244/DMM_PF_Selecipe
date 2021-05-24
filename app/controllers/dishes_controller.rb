@@ -1,5 +1,6 @@
 class DishesController < ApplicationController
   def new
+    @dish = Dish.new
   end
 
   def create
@@ -19,4 +20,10 @@ class DishesController < ApplicationController
 
   def update
   end
+
+  private
+  def dish_params
+    params.require(:dish).permit(:name,:image,:type,:list,:time,:source,:memo,:satisfaction)
+  end
+
 end
