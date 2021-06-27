@@ -7,9 +7,12 @@ class DishesController < ApplicationController
   end
 
   def index
+    @dishes = Dish.all
   end
 
   def edit
+    @dish = Dish.find(params[:id])
+    
   end
 
   def show
