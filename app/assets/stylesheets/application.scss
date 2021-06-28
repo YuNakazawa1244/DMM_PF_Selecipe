@@ -16,3 +16,9 @@
 @import "bootstrap";
 @import 'font-awesome-sprockets';
 @import 'font-awesome';
+
+.background {
+  background-image: image-url('Selecipe_back.jpg');
+  height: 800px;
+  background-size: cover;
+}
